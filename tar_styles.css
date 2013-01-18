@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family:basettf;
+	src: url('tar_savings.ttf');	
+}
+
+body{
+	font-family:basettf;	
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:0;
+}
+
+
+#cuadrototal{
+	background-image:url(tar_bg01.jpg);
+	position:absolute;
+	margin:0;
+	width:100%;
+	height:100%;
+	background-color:#CED3E3;	
+}
+
+
+#cuadro{
+	position:absolute;
+	overflow:auto;
+	background-color:#242B01;
+	margin:2em;
+	display:block;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	font-size:1.6em;
+	border: dotted #FFF 1px;
+	-webkit-border-radius: 8px;
+	
+}
+input{
+	font-size:1em;
+	font-family:basettf;
+	
+}
+.inputentra{
+	width:75%;
+}
+
+#cuadro2{
+	position:absolute;
+	background-color:#74A081;
+	margin:2em;
+	display:block;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	font-size:1.6em;
+	border: dotted #FFF 1px;
+	padding:1.5em;
+}
+
+
+cat{
+	display:block;
+	padding: 0.2em 0em 0.1em 0.5em;
+	vertical-align:middle;
+	font-size:1.2em;
+	color:#CCC;
+}
+
+item{
+	background-color:#444B21;
+	display:block;
+	margin: 0 0 1em 0;
+	padding: 0.2em;
+	vertical-align:middle;
+	color:#AAA;
+}
+#badd{
+	position:absolute;
+	right:2em;
+	bottom:1.6em;	
+	
+}
+
+#badd input{
+	font-family:basettf;
+	font-size:2em;
+	-webkit-border-radius: 5px;
+	background-image: -webkit-gradient(
+    	linear,
+    	left bottom,
+    	left top,
+    	color-stop(0, rgb(140,146,140)),
+    	color-stop(1, rgb(210,210,210))
+	);
+	border: 2px rgba(0,6,0,1) solid;
+	margin: 0;
+	padding: 0.4em 1em 0.4em 1em;
+	color: #111;
+}
+
+.check{
+	-webkit-border-radius: 8px;
+	border:solid 1px #000;
+	width:1em;
+	height:1em;
+	background-image: -webkit-gradient(
+    	linear,
+    	left bottom,
+    	left top,
+    	color-stop(0, rgb(40,60,40)),
+    	color-stop(1, rgb(100,100,100))
+	);position:static;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+
+	
+
+.txt{
+	display:inline;
+	padding-left:0.3em;
+	vertical-align:middle;
+	
+}
+
+.fecha{
+	display:inline-block;
+	font-size:0.5em;	
+	
+}
+
+.realizada{
+	float:left;
+	margin-left:1em;
+	font-family:basettf;
+	font-size:0.8em;
+	display:none;
+}
+.boteli{
+	float:right;
+	margin-left:1em;
+	font-family:basettf;
+	font-size:0.8em;
+	background-image: -webkit-gradient(
+    	linear,
+    	left top,
+    	left bottom,
+    	color-stop(0, #DD3300),
+    	color-stop(1, #991100)
+	);	
+	color:#F5F5F5;
+	padding:0 1.3em 0 1.3em;
+	display:none;
+	
+}

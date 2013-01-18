@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="tar_styles.css">
+    <title>Tareas</title>
+    <script src="tar_creasql.js"></script>
+    <script src="tar_crea.js"></script>
+</head>
+<body>
+	<div id="cuadrototal">
+		<div id="cuadro">
+        	<cat>TAREAS PENDIENTES</cat>
+            <div id="caja01">.</div>
+			<cat>TAREAS YA REALIZADAS</cat>
+            <div id="caja02">.</div>
+        	<br>
+        </div>
+	</div>
+    <div id="cuadro2" style="display:none">Nueva tarea a realizar:<br>
+    	<input type="text" id="input001" class="inputentra"><br>
+        <input type="button" value="Agregar"  onClick="inserta()" /><input type="button" value="Cancelar" onClick="oculta()" />
+    </div>
+    
+    
+    
+    <div id="badd"><input onclick="muestra()"  type="button" value="Añadir"/></div> 
+<script>actualiza();</script></body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+   xmlns:rim="http://www.blackberry.com/ns/widgets"
+   version="1.0.0.0">
+ 
+   <name>Solo Tareas</name>
+   <description>Software simple de gestión de tareas</description>
+   <content src="tareas.html"/>
+   <author rim:copyright="Copyright 2012">Koy</author>
+   
+   <rim:orientation mode="auto"/>
+ 
+         <rim:permit>post_notification</rim:permit> 
+		 <rim:permit>access_shared</rim:permit> 
+  <rim:category name="management"/>    
+  <icon src="icontar.png"/>
+  <feature id="blackberry.system.event" />
+  <feature id="blackberry.app.event" />
+</widget>
